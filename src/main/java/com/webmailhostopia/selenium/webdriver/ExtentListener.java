@@ -8,8 +8,6 @@ import java.util.Date;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
-import org.testng.internal.IResultListener;
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -82,7 +80,7 @@ public class ExtentListener extends TestListenerAdapter {
 		Log.info("Flushing and closing the extent report object!!!");
 		extent.flush();
 		extent.close();
-	}
+	} 
 
 
 	@Override

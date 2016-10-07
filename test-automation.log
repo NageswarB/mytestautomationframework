@@ -1,0 +1,994 @@
+07-30-2016 19:23:16 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 19:23:16 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 19:23:16 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-30-2016 19:23:16 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-30-2016 19:23:20 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 07-30-2016 19:23:20 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 07-30-2016 19:23:21 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 19:23:21 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 19:23:21 Log.java INFO  [main] utils.Log 16 - Inside no username no password method
+ 07-30-2016 19:23:21 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 19:38:59 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 19:38:59 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 19:38:59 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-30-2016 19:38:59 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-30-2016 19:39:03 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 07-30-2016 19:39:03 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 07-30-2016 19:39:04 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 19:39:04 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 19:39:04 Log.java INFO  [main] utils.Log 16 - Inside no username no password method
+ 07-30-2016 19:39:04 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 20:00:13 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 20:00:13 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 20:00:14 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-30-2016 20:00:14 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-30-2016 20:00:17 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 07-30-2016 20:00:17 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 07-30-2016 20:00:18 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 20:00:18 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 20:03:09 Log.java INFO  [main] utils.Log 16 - Inside no username no password method
+ 07-30-2016 20:03:17 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:11:42 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 21:11:42 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 21:11:43 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-30-2016 21:11:43 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-30-2016 21:12:39 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 21:12:39 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 21:12:40 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-30-2016 21:12:40 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-30-2016 21:12:43 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 07-30-2016 21:12:43 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 07-30-2016 21:12:45 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 21:12:45 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 21:12:45 Log.java INFO  [main] utils.Log 16 - Inside no username no password method
+ 07-30-2016 21:12:45 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:13:01 Log.java INFO  [main] utils.Log 16 - Warning message received : ×
+Close
+Error! Please provide your username.
+ 07-30-2016 21:13:01 Log.java INFO  [main] utils.Log 16 - Warning message received 
+ 07-30-2016 21:13:01 Log.java ERROR [main] utils.Log 24 - Test failed
+ 07-30-2016 21:13:01 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 07-30-2016 21:13:01 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 07-30-2016 21:13:02 Log.java ERROR [main] utils.Log 24 - Test failed
+ 07-30-2016 21:13:02 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 07-30-2016 21:13:02 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 07-30-2016 21:13:02 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 07-30-2016 21:13:04 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 07-30-2016 21:19:18 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 21:19:18 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 21:19:19 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-30-2016 21:19:19 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-30-2016 21:19:22 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 07-30-2016 21:19:22 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 07-30-2016 21:19:23 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 21:19:23 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 21:19:23 Log.java INFO  [main] utils.Log 16 - Inside no username no password method
+ 07-30-2016 21:19:23 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:19:40 Log.java INFO  [main] utils.Log 16 - Warning message received : Please provide your username.
+ 07-30-2016 21:19:40 Log.java INFO  [main] utils.Log 16 - Warning message received 
+ 07-30-2016 21:19:40 Log.java INFO  [main] utils.Log 16 - Inside valid username with no password method
+ 07-30-2016 21:19:40 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:19:41 Log.java INFO  [main] utils.Log 16 - Warning message received : Please provide your password.
+ 07-30-2016 21:19:41 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:19:41 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:23:49 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 21:23:49 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 21:23:49 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-30-2016 21:23:49 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-30-2016 21:23:53 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 07-30-2016 21:23:53 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 07-30-2016 21:23:54 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 21:23:54 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 21:23:54 Log.java INFO  [main] utils.Log 16 - Inside no username no password method
+ 07-30-2016 21:23:54 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:24:10 Log.java INFO  [main] utils.Log 16 - Warning message received : Please provide your username.
+ 07-30-2016 21:24:10 Log.java INFO  [main] utils.Log 16 - Warning message received 
+ 07-30-2016 21:24:10 Log.java INFO  [main] utils.Log 16 - Inside valid username with no password method
+ 07-30-2016 21:24:10 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:24:11 Log.java INFO  [main] utils.Log 16 - Warning message received : Please provide your password.
+ 07-30-2016 21:24:11 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:24:11 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:26:41 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 21:26:41 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 21:26:41 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-30-2016 21:26:41 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-30-2016 21:26:45 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 07-30-2016 21:26:45 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 07-30-2016 21:26:46 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 21:26:46 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 21:27:00 Log.java INFO  [main] utils.Log 16 - Inside no username no password method
+ 07-30-2016 21:27:00 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:27:16 Log.java INFO  [main] utils.Log 16 - Warning message received : Please provide your username.
+ 07-30-2016 21:27:31 Log.java INFO  [main] utils.Log 16 - Warning message received 
+ 07-30-2016 21:27:44 Log.java INFO  [main] utils.Log 16 - Inside valid username with no password method
+ 07-30-2016 21:27:44 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:27:45 Log.java INFO  [main] utils.Log 16 - Warning message received : Please provide your password.
+ 07-30-2016 21:28:01 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:28:01 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:29:15 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 21:29:15 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 21:29:15 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-30-2016 21:29:15 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-30-2016 21:29:19 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 07-30-2016 21:29:19 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 07-30-2016 21:29:20 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 21:29:20 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 21:29:20 Log.java INFO  [main] utils.Log 16 - Inside no username no password method
+ 07-30-2016 21:29:20 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:29:36 Log.java INFO  [main] utils.Log 16 - Warning message received : Please provide your username.
+ 07-30-2016 21:29:37 Log.java INFO  [main] utils.Log 16 - Inside valid username with no password method
+ 07-30-2016 21:29:37 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:29:40 Log.java INFO  [main] utils.Log 16 - Warning message received : Please provide your password.
+ 07-30-2016 21:29:40 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:29:40 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 21:29:43 Log.java INFO  [main] utils.Log 16 - Warning message received : Please provide your username.
+ 07-30-2016 21:29:56 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 07-30-2016 21:29:56 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 07-30-2016 22:03:03 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 22:03:03 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-30-2016 22:03:04 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-30-2016 22:03:04 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-30-2016 22:03:07 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 07-30-2016 22:03:07 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 07-30-2016 22:03:08 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 22:03:08 Log.java INFO  [main] utils.Log 16 - Inside webmail login test method
+ 07-30-2016 22:03:08 Log.java INFO  [main] utils.Log 16 - Inside no username no password method
+ 07-30-2016 22:03:08 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 22:03:25 Log.java INFO  [main] utils.Log 16 - Warning message received : Please provide your username.
+ 07-30-2016 22:03:26 Log.java INFO  [main] utils.Log 16 - Inside valid username with no password method
+ 07-30-2016 22:03:26 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 22:03:28 Log.java INFO  [main] utils.Log 16 - Warning message received : Please provide your password.
+ 07-30-2016 22:03:30 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 22:03:30 Log.java INFO  [main] utils.Log 16 - Inside no username with valid password method
+ 07-30-2016 22:03:33 Log.java INFO  [main] utils.Log 16 - Warning message received : Please provide your username.
+ 07-30-2016 22:03:45 Log.java INFO  [main] utils.Log 16 - Inside verifyForgotPasswordLink method
+ 07-30-2016 22:10:51 Log.java ERROR [main] utils.Log 24 - Test failed
+ 07-30-2016 22:10:51 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 07-30-2016 22:10:51 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 07-30-2016 22:10:59 Log.java ERROR [main] utils.Log 24 - Error in taking screen shot chrome not reachable
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'nagesh-test', ip: '10.113.187.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_15'
+Session ID: ad647a5cc161a4fb515d236b18ee1b3e
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir7240_19031, chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=51.0.2704.103, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+ 07-30-2016 22:10:59 Log.java ERROR [main] utils.Log 24 - Test failed
+ 07-30-2016 22:10:59 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 07-30-2016 22:10:59 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 07-30-2016 22:11:07 Log.java ERROR [main] utils.Log 24 - Error in taking screen shot chrome not reachable
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'nagesh-test', ip: '10.113.187.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_15'
+Session ID: ad647a5cc161a4fb515d236b18ee1b3e
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir7240_19031, chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=51.0.2704.103, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+ 07-30-2016 22:11:08 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 07-30-2016 22:11:08 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 07-31-2016 13:17:11 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-31-2016 13:17:11 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-31-2016 13:17:11 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-31-2016 13:17:11 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-31-2016 13:17:15 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 07-31-2016 13:17:15 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 07-31-2016 13:17:16 Log.java INFO  [main] utils.Log 16 - Inside verifyForgotPasswordLink method
+ 07-31-2016 20:46:32 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-31-2016 20:46:32 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-31-2016 20:46:32 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-31-2016 20:46:32 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-31-2016 20:46:39 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 07-31-2016 20:46:39 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 07-31-2016 20:46:40 Log.java INFO  [main] utils.Log 16 - Inside verifyManiActivityPage method
+ 07-31-2016 20:47:04 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 07-31-2016 20:47:04 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 07-31-2016 21:11:46 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-31-2016 21:11:46 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-31-2016 21:11:46 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-31-2016 21:11:46 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-31-2016 21:11:49 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 07-31-2016 21:11:49 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 07-31-2016 21:11:50 Log.java INFO  [main] utils.Log 16 - Inside verifyManiActivityPage method
+ 07-31-2016 21:12:13 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 07-31-2016 21:22:34 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-31-2016 21:22:34 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-31-2016 21:22:34 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-31-2016 21:22:34 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-31-2016 21:22:38 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 07-31-2016 21:22:38 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 07-31-2016 21:22:39 Log.java INFO  [main] utils.Log 16 - Inside verifyManiActivityPage method
+ 07-31-2016 21:23:02 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 07-31-2016 21:38:33 Log.java INFO  [main] utils.Log 16 - Composing mail..
+ 07-31-2016 22:46:26 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-31-2016 22:46:26 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-31-2016 22:46:27 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-31-2016 22:46:27 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-31-2016 22:46:30 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 07-31-2016 22:46:30 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 07-31-2016 22:46:31 Log.java INFO  [main] utils.Log 16 - Inside verifyManiActivityPage method
+ 07-31-2016 22:46:53 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 07-31-2016 22:51:24 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-31-2016 22:51:24 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 07-31-2016 22:51:24 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 07-31-2016 22:51:24 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 07-31-2016 22:51:28 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 07-31-2016 22:51:28 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 07-31-2016 22:51:29 Log.java INFO  [main] utils.Log 16 - Inside verifyManiActivityPage method
+ 07-31-2016 22:51:50 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-04-2016 08:47:12 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 08:47:12 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 08:47:12 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-04-2016 08:47:12 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-04-2016 08:47:16 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-04-2016 08:47:16 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-04-2016 08:47:17 Log.java INFO  [main] utils.Log 16 - Inside verifyManiActivityPage method
+ 08-04-2016 08:47:41 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-04-2016 08:47:41 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-04-2016 08:47:41 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-04-2016 08:47:41 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-04-2016 08:47:44 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-04-2016 08:47:44 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-04-2016 09:02:50 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 09:02:50 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 09:02:51 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-04-2016 09:02:51 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-04-2016 09:02:54 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-04-2016 09:02:54 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-04-2016 09:02:55 Log.java INFO  [main] utils.Log 16 - Inside verifyManiActivityPage method
+ 08-04-2016 09:03:17 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-04-2016 09:04:53 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-04-2016 09:04:53 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-04-2016 09:04:53 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-04-2016 09:04:54 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-04-2016 09:04:54 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-04-2016 09:08:12 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 09:08:12 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 09:08:12 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-04-2016 09:08:12 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-04-2016 09:08:16 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-04-2016 09:08:16 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-04-2016 09:08:17 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-04-2016 09:08:36 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-04-2016 09:11:36 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 09:11:36 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 09:11:36 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-04-2016 09:11:36 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-04-2016 09:11:40 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-04-2016 09:11:40 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-04-2016 09:11:41 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-04-2016 09:11:59 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-04-2016 09:17:02 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 09:17:02 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 09:17:02 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-04-2016 09:17:02 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-04-2016 09:17:05 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-04-2016 09:17:05 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-04-2016 09:17:07 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-04-2016 09:17:25 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-04-2016 09:18:58 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-04-2016 09:18:58 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-04-2016 09:18:58 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-04-2016 09:18:59 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-04-2016 09:18:59 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-04-2016 09:31:09 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 09:31:09 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 09:31:09 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-04-2016 09:31:09 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-04-2016 09:31:13 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-04-2016 09:31:13 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-04-2016 09:31:14 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-04-2016 09:31:47 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-04-2016 09:31:47 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-04-2016 09:33:30 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 09:33:30 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 09:33:30 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-04-2016 09:33:30 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-04-2016 09:33:33 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-04-2016 09:33:33 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-04-2016 09:33:34 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-04-2016 09:34:04 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-04-2016 09:34:06 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-04-2016 09:34:06 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-04-2016 09:45:33 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 09:45:33 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 09:45:33 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-04-2016 09:45:33 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-04-2016 09:45:36 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-04-2016 09:45:36 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-04-2016 09:45:38 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-04-2016 09:45:55 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-04-2016 09:46:08 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-04-2016 09:46:09 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-04-2016 09:46:09 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-04-2016 09:46:17 Log.java INFO  [main] utils.Log 16 - Composing mail..
+ 08-04-2016 09:46:19 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-04-2016 09:46:19 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-04-2016 09:46:19 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-04-2016 09:46:21 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-04-2016 09:46:21 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-04-2016 20:36:52 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 20:36:52 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 20:36:52 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-04-2016 20:36:52 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-04-2016 20:36:56 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-04-2016 20:36:56 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-04-2016 20:36:57 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-04-2016 20:37:15 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-04-2016 20:37:30 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-04-2016 20:37:31 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-04-2016 20:37:31 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-04-2016 20:37:40 Log.java INFO  [main] utils.Log 16 - Composing mail..
+ 08-04-2016 20:37:44 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-04-2016 20:37:44 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-04-2016 20:37:44 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-04-2016 20:37:46 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-04-2016 20:37:46 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-04-2016 20:42:33 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 20:42:33 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 20:42:33 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-04-2016 20:42:33 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-04-2016 20:42:37 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-04-2016 20:42:37 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-04-2016 20:42:38 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-04-2016 20:42:54 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-04-2016 20:43:09 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-04-2016 20:43:10 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-04-2016 20:43:10 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-04-2016 20:43:20 Log.java INFO  [main] utils.Log 16 - Composing mail..
+ 08-04-2016 21:14:09 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 21:14:09 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-04-2016 21:14:09 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-04-2016 21:14:09 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-04-2016 21:14:13 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-04-2016 21:14:13 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-04-2016 21:14:14 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-04-2016 21:14:31 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-04-2016 21:14:47 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-04-2016 21:14:47 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-04-2016 21:14:47 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-04-2016 21:14:57 Log.java INFO  [main] utils.Log 16 - Composing mail..
+ 08-04-2016 21:15:05 Log.java INFO  [main] utils.Log 16 - Sending e-mail...
+ 08-04-2016 21:15:05 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-04-2016 21:15:05 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-04-2016 21:15:05 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-04-2016 21:15:07 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-04-2016 21:15:07 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-05-2016 19:06:12 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-05-2016 19:06:12 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-05-2016 19:06:12 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-05-2016 19:06:12 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-05-2016 19:06:16 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-05-2016 19:06:16 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-05-2016 19:06:17 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-05-2016 19:06:35 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-05-2016 19:06:50 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-05-2016 19:06:51 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-05-2016 19:06:51 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-05-2016 19:06:51 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-05-2016 19:06:56 Log.java INFO  [main] utils.Log 16 - Inbox unread mail count is : 272
+ 08-05-2016 19:07:01 Log.java INFO  [main] utils.Log 16 - Composing mail..
+ 08-05-2016 19:07:11 Log.java INFO  [main] utils.Log 16 - Sending e-mail...
+ 08-06-2016 05:47:02 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 05:47:02 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 05:47:03 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 05:47:03 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 05:47:06 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 05:47:06 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 05:47:08 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 05:47:26 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 05:47:41 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 05:47:42 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-06-2016 05:47:42 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 05:47:42 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 05:47:47 Log.java INFO  [main] utils.Log 16 - Inbox unread mail count is : 273
+ 08-06-2016 05:47:52 Log.java INFO  [main] utils.Log 16 - Composing mail..
+ 08-06-2016 05:52:33 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 05:52:33 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 05:52:33 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 05:52:33 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 05:52:37 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 05:52:37 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 05:52:38 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 05:52:55 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 05:53:11 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 05:53:11 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-06-2016 05:53:11 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 05:53:11 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 05:53:16 Log.java INFO  [main] utils.Log 16 - Inbox unread mail count is : 273
+ 08-06-2016 05:53:23 Log.java INFO  [main] utils.Log 16 - Composing mail..
+ 08-06-2016 06:09:03 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 06:09:03 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 06:09:03 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 06:09:03 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 06:09:07 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 06:09:07 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 06:09:08 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 06:09:26 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 06:09:41 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 06:09:42 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-06-2016 06:09:42 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 06:09:42 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 06:09:46 Log.java INFO  [main] utils.Log 16 - Inbox unread mail count is : 273
+ 08-06-2016 06:09:51 Log.java INFO  [main] utils.Log 16 - Composing mail..
+ 08-06-2016 06:09:59 Log.java INFO  [main] utils.Log 16 - Sending e-mail...
+ 08-06-2016 06:15:35 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 06:15:35 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 06:15:36 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 06:15:36 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 06:15:39 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 06:15:39 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 06:15:41 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 06:15:59 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 06:16:15 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 06:16:15 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-06-2016 06:16:15 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 06:16:15 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 06:16:20 Log.java INFO  [main] utils.Log 16 - Inbox unread mail count is : 273
+ 08-06-2016 06:16:28 Log.java INFO  [main] utils.Log 16 - Composing mail..
+ 08-06-2016 06:16:38 Log.java INFO  [main] utils.Log 16 - Sending e-mail...
+ 08-06-2016 06:16:41 Log.java INFO  [main] utils.Log 16 - Inside navigateToCalendarSectionAndComeBack method
+ 08-06-2016 06:16:41 Log.java INFO  [main] utils.Log 16 - Clicking on Calendar Icon...
+ 08-06-2016 06:16:42 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 06:21:22 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 06:21:22 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 06:21:23 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 06:21:23 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 06:21:26 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 06:21:26 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 06:21:28 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 06:21:44 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 06:21:59 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 06:22:00 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-06-2016 06:22:58 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 06:22:58 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 06:22:58 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 06:22:58 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 06:23:02 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 06:23:02 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 06:23:03 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 06:23:20 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 06:23:35 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 06:23:35 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-06-2016 06:23:35 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 06:23:36 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 06:23:40 Log.java INFO  [main] utils.Log 16 - Inbox unread mail count is : 274
+ 08-06-2016 06:23:45 Log.java INFO  [main] utils.Log 16 - Composing mail..
+ 08-06-2016 06:23:55 Log.java INFO  [main] utils.Log 16 - Sending e-mail...
+ 08-06-2016 06:23:58 Log.java INFO  [main] utils.Log 16 - Inside navigateToCalendarSectionAndComeBack method
+ 08-06-2016 06:23:58 Log.java INFO  [main] utils.Log 16 - Clicking on Calendar Icon...
+ 08-06-2016 06:23:59 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 09:07:55 Log.java ERROR [main] utils.Log 24 - Exception occured while composing e-mailnull
+ 08-06-2016 09:07:57 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-06-2016 09:07:57 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-06-2016 19:42:48 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 19:42:48 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 19:42:48 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 19:42:48 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 19:42:52 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 19:42:52 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 19:42:53 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 19:43:10 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 19:43:24 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 19:43:25 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailSendFunctionality method
+ 08-06-2016 19:43:25 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 19:43:25 Log.java INFO  [main] utils.Log 16 - Inside getMailInboxCount method
+ 08-06-2016 19:43:25 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 19:43:29 Log.java INFO  [main] utils.Log 16 - Inbox unread mail count is : 275
+ 08-06-2016 19:43:33 Log.java INFO  [main] utils.Log 16 - Composing mail..
+ 08-06-2016 19:43:41 Log.java INFO  [main] utils.Log 16 - Sending e-mail...
+ 08-06-2016 19:43:44 Log.java INFO  [main] utils.Log 16 - Inside checkEmailSentMessageConfirmation method
+ 08-06-2016 19:43:45 Log.java INFO  [main] utils.Log 16 - Inside navigateToCalendarSectionAndComeBack method
+ 08-06-2016 19:43:45 Log.java INFO  [main] utils.Log 16 - Clicking on Calendar Icon...
+ 08-06-2016 19:43:46 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 22:51:39 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 22:51:39 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 22:51:39 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 22:51:39 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 22:51:43 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 22:51:43 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 22:51:44 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 22:52:01 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 22:52:16 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 22:52:17 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 22:52:17 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 22:52:23 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-06-2016 22:52:23 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-06-2016 22:52:23 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-06-2016 22:52:25 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-06-2016 22:52:25 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-06-2016 22:53:46 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 22:53:46 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 22:53:47 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 22:53:47 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 22:53:50 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 22:53:50 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 22:53:51 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 22:54:06 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 22:54:21 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 22:54:22 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 22:54:22 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 22:54:30 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-06-2016 22:54:30 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-06-2016 22:54:30 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-06-2016 22:54:31 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-06-2016 22:54:31 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-06-2016 23:04:37 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:04:37 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:04:37 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 23:04:37 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 23:04:41 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 23:04:41 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 23:04:42 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 23:05:00 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:05:15 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 23:05:16 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:05:16 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:05:16 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:05:16 Log.java INFO  [main] utils.Log 16 - Switch to active element
+ 08-06-2016 23:05:21 Log.java INFO  [main] utils.Log 16 - Mouse over on Inbox
+ 08-06-2016 23:05:23 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-06-2016 23:05:23 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-06-2016 23:05:23 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-06-2016 23:05:24 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-06-2016 23:05:24 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-06-2016 23:06:18 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:06:18 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:06:19 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 23:06:19 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 23:06:22 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 23:06:22 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 23:06:24 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 23:06:38 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:06:53 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 23:06:53 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:06:53 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:06:53 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:06:58 Log.java INFO  [main] utils.Log 16 - Switch to active element
+ 08-06-2016 23:06:58 Log.java INFO  [main] utils.Log 16 - Mouse over on Inbox
+ 08-06-2016 23:18:49 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:18:49 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:18:49 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 23:18:49 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 23:18:53 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 23:18:53 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 23:18:54 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 23:19:13 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:19:28 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 23:19:29 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:19:29 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:19:29 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:19:29 Log.java INFO  [main] utils.Log 16 - Switch to active element
+ 08-06-2016 23:19:29 Log.java INFO  [main] utils.Log 16 - Mouse over on Inbox
+ 08-06-2016 23:23:43 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:23:43 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:23:44 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 23:23:44 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 23:23:47 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 23:23:47 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 23:23:48 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 23:24:05 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:24:20 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 23:24:21 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:24:21 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:24:21 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:24:21 Log.java INFO  [main] utils.Log 16 - Switch to active element
+ 08-06-2016 23:24:21 Log.java INFO  [main] utils.Log 16 - Mouse over on Inbox
+ 08-06-2016 23:24:28 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-06-2016 23:24:28 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-06-2016 23:27:12 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:27:12 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:27:12 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 23:27:12 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 23:27:16 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 23:27:16 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 23:27:17 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 23:27:35 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:27:51 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 23:27:52 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:27:52 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:27:52 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:27:55 Log.java INFO  [main] utils.Log 16 - Switch to active element
+ 08-06-2016 23:27:57 Log.java INFO  [main] utils.Log 16 - Mouse over on Inbox
+ 08-06-2016 23:27:57 Log.java INFO  [main] utils.Log 16 - Inside moveToElement method
+ 08-06-2016 23:27:59 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-06-2016 23:27:59 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-06-2016 23:34:30 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:34:30 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:34:30 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 23:34:30 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 23:34:34 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 23:34:34 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 23:34:35 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 23:34:52 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:35:07 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 23:35:08 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:35:08 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:35:08 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:35:13 Log.java INFO  [main] utils.Log 16 - Switch to active element
+ 08-06-2016 23:35:13 Log.java INFO  [main] utils.Log 16 - Mouse over on Inbox
+ 08-06-2016 23:35:13 Log.java INFO  [main] utils.Log 16 - Inside moveToElement method
+ 08-06-2016 23:35:14 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-06-2016 23:35:14 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-06-2016 23:35:14 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-06-2016 23:35:16 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-06-2016 23:35:16 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-06-2016 23:36:44 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:36:44 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:36:44 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 23:36:44 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 23:36:47 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 23:36:47 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 23:36:49 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 23:37:05 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:37:19 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 23:37:20 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:37:20 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:37:20 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:37:21 Log.java INFO  [main] utils.Log 16 - Switch to active element
+ 08-06-2016 23:37:25 Log.java INFO  [main] utils.Log 16 - Mouse over on Inbox
+ 08-06-2016 23:37:25 Log.java INFO  [main] utils.Log 16 - Inside moveToElement method
+ 08-06-2016 23:37:31 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-06-2016 23:37:31 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-06-2016 23:37:31 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-06-2016 23:37:33 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-06-2016 23:37:33 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-06-2016 23:45:36 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:45:36 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:45:37 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 23:45:37 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 23:45:40 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 23:45:40 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 23:45:42 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 23:45:58 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:46:11 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 23:46:12 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:46:12 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:46:12 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:46:12 Log.java INFO  [main] utils.Log 16 - Switch to active element
+ 08-06-2016 23:46:12 Log.java INFO  [main] utils.Log 16 - Mouse over on Inbox
+ 08-06-2016 23:46:16 Log.java INFO  [main] utils.Log 16 - Inside moveToElement method
+ 08-06-2016 23:46:22 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-06-2016 23:46:22 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-06-2016 23:46:22 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-06-2016 23:46:24 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-06-2016 23:46:24 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-06-2016 23:50:56 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:50:56 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:50:56 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 23:50:56 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 23:51:00 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 23:51:00 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 23:51:01 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 23:51:13 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:51:28 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 23:51:29 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:51:29 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:51:29 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:51:33 Log.java INFO  [main] utils.Log 16 - Switch to active element
+ 08-06-2016 23:51:34 Log.java INFO  [main] utils.Log 16 - Mouse over on Inbox
+ 08-06-2016 23:51:34 Log.java INFO  [main] utils.Log 16 - Inside moveToElement method
+ 08-06-2016 23:51:39 Log.java INFO  [main] utils.Log 16 - Clicking on next icon...
+ 08-06-2016 23:51:40 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-06-2016 23:51:40 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-06-2016 23:51:40 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-06-2016 23:51:42 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-06-2016 23:51:42 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-06-2016 23:53:32 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:53:32 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:53:32 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 23:53:32 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 23:53:35 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 23:53:35 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 23:53:37 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 23:53:48 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:54:02 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 23:54:02 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:54:02 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:54:02 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:54:03 Log.java INFO  [main] utils.Log 16 - Switch to active element
+ 08-06-2016 23:54:03 Log.java INFO  [main] utils.Log 16 - Mouse over on Inbox
+ 08-06-2016 23:54:06 Log.java INFO  [main] utils.Log 16 - Inside moveToElement method
+ 08-06-2016 23:54:08 Log.java INFO  [main] utils.Log 16 - Clicking on next icon...
+ 08-06-2016 23:54:08 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-06-2016 23:54:08 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-06-2016 23:54:08 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-06-2016 23:54:10 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-06-2016 23:54:10 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-06-2016 23:55:54 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:55:54 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:55:54 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 23:55:54 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-06-2016 23:55:57 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-06-2016 23:55:57 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-06-2016 23:55:59 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-06-2016 23:56:09 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:56:24 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-06-2016 23:56:25 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:56:25 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-06-2016 23:56:25 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-06-2016 23:56:25 Log.java INFO  [main] utils.Log 16 - Switch to active element
+ 08-06-2016 23:56:25 Log.java INFO  [main] utils.Log 16 - Mouse over on Inbox
+ 08-06-2016 23:56:29 Log.java INFO  [main] utils.Log 16 - Inside moveToElement method
+ 08-06-2016 23:56:54 Log.java INFO  [main] utils.Log 16 - Clicking on next icon...
+ 08-06-2016 23:56:56 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-06-2016 23:56:56 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-06-2016 23:56:56 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-06-2016 23:56:58 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-06-2016 23:56:58 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-06-2016 23:59:31 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:59:31 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-06-2016 23:59:31 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-06-2016 23:59:31 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-07-2016 00:00:56 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-07-2016 00:00:56 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-07-2016 00:00:56 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-07-2016 00:00:56 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-07-2016 00:00:59 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-07-2016 00:00:59 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-07-2016 00:01:01 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-07-2016 00:01:13 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-07-2016 00:01:27 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-07-2016 00:01:28 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-07-2016 00:01:28 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-07-2016 00:01:28 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-07-2016 00:01:32 Log.java INFO  [main] utils.Log 16 - Switch to active element
+ 08-07-2016 00:01:32 Log.java INFO  [main] utils.Log 16 - Mouse over on Inbox
+ 08-07-2016 00:01:33 Log.java INFO  [main] utils.Log 16 - Inside moveToElement method
+ 08-07-2016 00:01:34 Log.java INFO  [main] utils.Log 16 - Clicking on next icon...
+ 08-07-2016 00:01:36 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-07-2016 00:01:36 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-07-2016 00:01:36 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-07-2016 00:01:37 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-07-2016 00:01:37 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-07-2016 00:04:23 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-07-2016 00:04:23 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-07-2016 00:04:23 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-07-2016 00:04:23 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-07-2016 00:04:27 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-07-2016 00:04:27 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-07-2016 00:04:28 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-07-2016 00:04:41 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-07-2016 00:04:55 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-07-2016 00:04:56 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-07-2016 00:04:56 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-07-2016 00:04:56 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-07-2016 00:05:01 Log.java INFO  [main] utils.Log 16 - Switch to active element
+ 08-07-2016 00:05:01 Log.java INFO  [main] utils.Log 16 - Mouse over on Inbox
+ 08-07-2016 00:05:01 Log.java INFO  [main] utils.Log 16 - Inside moveToElement method
+ 08-07-2016 00:05:02 Log.java INFO  [main] utils.Log 16 - Clicking on next icon...
+ 08-07-2016 00:05:08 Log.java ERROR [main] utils.Log 24 - Test failed
+ 08-07-2016 00:05:08 Log.java ERROR [main] utils.Log 24 - Inside onTestFailure Method
+ 08-07-2016 00:05:08 Log.java INFO  [main] utils.Log 16 - Inside screenshot capture method
+ 08-07-2016 00:05:10 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-07-2016 00:05:10 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-07-2016 00:07:23 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-07-2016 00:07:23 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-07-2016 00:07:23 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-07-2016 00:07:23 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-07-2016 00:07:27 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-07-2016 00:07:27 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-07-2016 00:07:28 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-07-2016 00:07:39 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-07-2016 00:07:54 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-07-2016 00:07:55 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-07-2016 00:07:55 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-07-2016 00:07:55 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-07-2016 00:07:59 Log.java INFO  [main] utils.Log 16 - Switch to active element
+ 08-07-2016 00:08:00 Log.java INFO  [main] utils.Log 16 - Mouse over on Inbox
+ 08-07-2016 00:08:00 Log.java INFO  [main] utils.Log 16 - Inside moveToElement method
+ 08-07-2016 00:08:09 Log.java INFO  [main] utils.Log 16 - Clicking on next icon...
+ 08-07-2016 00:08:10 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-07-2016 00:08:10 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-07-2016 00:08:38 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-07-2016 00:08:38 Log.java INFO  [main] utils.Log 16 - D:\testautomationframework-master is exists!!
+ 08-07-2016 00:08:39 Log.java INFO  [main] utils.Log 16 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-07-2016 00:08:39 Log.java INFO  [main] utils.Log 16 - open webdriver chrome with the flag of maximize
+ 08-07-2016 00:08:42 Log.java INFO  [main] utils.Log 16 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 08-07-2016 00:08:42 Log.java INFO  [main] utils.Log 16 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 08-07-2016 00:08:43 Log.java INFO  [main] utils.Log 16 - Inside verifyEmailLogin method
+ 08-07-2016 00:08:55 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-07-2016 00:09:09 Log.java INFO  [main] utils.Log 16 - New email pencil button is present
+ 08-07-2016 00:09:10 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-07-2016 00:09:10 Log.java INFO  [main] utils.Log 16 - Trying to find element by polling to DOM in attempt 0
+ 08-07-2016 00:09:10 Log.java INFO  [main] utils.Log 16 - Inside verifyTourOptionFunctionality method
+ 08-07-2016 00:09:10 Log.java INFO  [main] utils.Log 16 - Switch to active element
+ 08-07-2016 00:09:10 Log.java INFO  [main] utils.Log 16 - Mouse over on Inbox
+ 08-07-2016 00:09:15 Log.java INFO  [main] utils.Log 16 - Inside moveToElement method
+ 08-07-2016 00:09:17 Log.java INFO  [main] utils.Log 16 - Clicking on next icon...
+ 08-07-2016 00:09:20 Log.java INFO  [main] utils.Log 16 - closing all browser instances
+ 08-07-2016 00:09:20 Log.java INFO  [main] utils.Log 16 - Flushing and closing the extent report object!!!
+ 08-07-2016 19:20:39 Log.java INFO  [main] utils.Log 18 - D:\testautomationframework-master is exists!!
+ 08-07-2016 19:23:34 Log.java INFO  [main] utils.Log 18 - D:\testautomationframework-master is exists!!
+ 08-07-2016 19:31:11 Log.java INFO  [main] utils.Log 18 - D:\testautomationframework-master is exists!!
+ 08-07-2016 19:33:04 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-07-2016 19:33:04 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 08-07-2016 19:33:04 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 08-07-2016 19:33:04 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-07-2016 19:33:04 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 08-07-2016 19:33:04 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 08-07-2016 19:33:04 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 08-07-2016 19:33:04 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 08-07-2016 19:33:04 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 08-07-2016 19:33:05 Log.java INFO  [main] utils.Log 18 - Inside verifyEmailLogin method
+ 08-07-2016 19:33:05 Log.java ERROR [main] utils.Log 27 - Test failed
+ 08-07-2016 19:33:05 Log.java ERROR [main] utils.Log 27 - Inside onTestFailure Method
+ 08-07-2016 19:33:05 Log.java INFO  [main] utils.Log 18 - Inside screenshot capture method
+ 08-07-2016 19:33:05 Log.java ERROR [main] utils.Log 27 - Test failed
+ 08-07-2016 19:33:05 Log.java ERROR [main] utils.Log 27 - Inside onTestFailure Method
+ 08-07-2016 19:33:05 Log.java INFO  [main] utils.Log 18 - Inside screenshot capture method
+ 08-07-2016 19:33:05 Log.java INFO  [main] utils.Log 18 - Flushing and closing the extent report object!!!
+ 09-18-2016 19:07:43 Log.java INFO  [main] utils.Log 18 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 09-18-2016 19:07:43 Log.java ERROR [main] utils.Log 27 - Unable to set implicitly wait!!
+ 09-18-2016 19:07:43 Log.java INFO  [main] utils.Log 18 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 09-18-2016 19:07:43 Log.java ERROR [main] utils.Log 27 - Unable to set implicitly wait!!
+ 09-18-2016 19:07:44 Log.java INFO  [main] utils.Log 18 - Inside verifyForgotPasswordLink method
+ 09-18-2016 19:07:46 Log.java INFO  [main] utils.Log 18 - closing all browser instances
+ 09-18-2016 19:07:46 Log.java ERROR [main] utils.Log 27 - exception occured while closing the browser
+ 09-18-2016 19:13:49 Log.java INFO  [main] utils.Log 18 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 09-18-2016 19:13:49 Log.java ERROR [main] utils.Log 27 - Unable to set implicitly wait!!
+ 09-18-2016 19:13:49 Log.java INFO  [main] utils.Log 18 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 09-18-2016 19:13:49 Log.java ERROR [main] utils.Log 27 - Unable to set implicitly wait!!
+ 09-18-2016 19:14:03 Log.java INFO  [main] utils.Log 18 - Inside verifyForgotPasswordLink method
+ 09-18-2016 19:14:18 Log.java INFO  [main] utils.Log 18 - closing all browser instances
+ 09-18-2016 19:14:18 Log.java ERROR [main] utils.Log 27 - exception occured while closing the browser
+ 09-18-2016 19:17:04 Log.java INFO  [main] utils.Log 18 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 09-18-2016 19:17:04 Log.java ERROR [main] utils.Log 27 - Unable to set implicitly wait!!
+ 09-18-2016 19:17:04 Log.java INFO  [main] utils.Log 18 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 09-18-2016 19:17:04 Log.java ERROR [main] utils.Log 27 - Unable to set implicitly wait!!
+ 09-18-2016 19:17:04 Log.java INFO  [main] utils.Log 18 - Inside verifyForgotPasswordLink method
+ 09-18-2016 19:17:07 Log.java INFO  [main] utils.Log 18 - closing all browser instances
+ 09-18-2016 19:17:07 Log.java ERROR [main] utils.Log 27 - exception occured while closing the browser
+ 09-18-2016 19:18:34 Log.java INFO  [main] utils.Log 18 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 09-18-2016 19:18:34 Log.java ERROR [main] utils.Log 27 - Unable to set implicitly wait!!
+ 09-18-2016 19:18:34 Log.java INFO  [main] utils.Log 18 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 09-18-2016 19:18:34 Log.java ERROR [main] utils.Log 27 - Unable to set implicitly wait!!
+ 09-18-2016 19:18:34 Log.java INFO  [main] utils.Log 18 - Inside verifyForgotPasswordLink method
+ 09-18-2016 19:20:55 Log.java ERROR [main] utils.Log 27 - Test failed
+ 09-18-2016 19:20:55 Log.java ERROR [main] utils.Log 27 - Inside onTestFailure Method
+ 09-18-2016 19:20:55 Log.java INFO  [main] utils.Log 18 - Inside screenshot capture method
+ 09-18-2016 19:20:56 Log.java INFO  [main] utils.Log 18 - Inside webmail login test method
+ 09-18-2016 19:20:56 Log.java INFO  [main] utils.Log 18 - Inside webmail login test method
+ 09-18-2016 19:20:56 Log.java INFO  [main] utils.Log 18 - Inside no username no password method
+ 09-18-2016 19:20:56 Log.java INFO  [main] utils.Log 18 - Inside no username with valid password method
+ 09-18-2016 19:21:57 Log.java ERROR [main] utils.Log 27 - Test failed
+ 09-18-2016 19:21:57 Log.java ERROR [main] utils.Log 27 - Inside onTestFailure Method
+ 09-18-2016 19:21:57 Log.java INFO  [main] utils.Log 18 - Inside screenshot capture method
+ 09-18-2016 19:21:59 Log.java INFO  [main] utils.Log 18 - closing all browser instances
+ 09-18-2016 19:21:59 Log.java INFO  [main] utils.Log 18 - Flushing and closing the extent report object!!!
+ 10-06-2016 20:50:22 Log.java INFO  [main] utils.Log 18 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 10-06-2016 20:50:22 Log.java ERROR [main] utils.Log 27 - Unable to set implicitly wait!!
+ 10-06-2016 20:50:22 Log.java INFO  [main] utils.Log 18 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 10-06-2016 20:50:22 Log.java ERROR [main] utils.Log 27 - Unable to set implicitly wait!!
+ 10-06-2016 20:50:22 Log.java INFO  [main] utils.Log 18 - Inside verifyForgotPasswordLink method
+ 10-06-2016 20:50:23 Log.java INFO  [main] utils.Log 18 - Inside languageTest method
+ 10-06-2016 20:50:24 Log.java INFO  [main] utils.Log 18 - closing all browser instances
+ 10-06-2016 20:50:24 Log.java ERROR [main] utils.Log 27 - exception occured while closing the browser
+ 10-06-2016 20:51:46 Log.java INFO  [main] utils.Log 18 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 10-06-2016 20:51:46 Log.java ERROR [main] utils.Log 27 - Unable to set implicitly wait!!
+ 10-06-2016 20:51:46 Log.java INFO  [main] utils.Log 18 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 10-06-2016 20:51:46 Log.java ERROR [main] utils.Log 27 - Unable to set implicitly wait!!
+ 10-06-2016 20:51:46 Log.java INFO  [main] utils.Log 18 - Inside verifyForgotPasswordLink method
+ 10-06-2016 20:54:39 RetryExec.java INFO  [Forwarding screenshot on session 46fd7b1a-f5bb-410e-a8e9-9365b96773de to remote] execchain.RetryExec 96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond
+ 10-06-2016 20:54:39 RetryExec.java INFO  [Forwarding screenshot on session 46fd7b1a-f5bb-410e-a8e9-9365b96773de to remote] execchain.RetryExec 112 - Retrying request to {}->http://127.0.0.1:7055
+ 10-06-2016 20:54:40 Log.java ERROR [main] utils.Log 27 - Error in taking screen shot Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'nagesh-test', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_15'
+Driver info: driver.version: EventFiringWebDriver
+Session ID: 46fd7b1a-f5bb-410e-a8e9-9365b96773de
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0}]
+ 10-07-2016 06:38:54 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 06:38:54 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 06:38:54 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 06:38:54 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 06:38:54 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 06:38:54 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 06:38:54 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 06:38:54 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 06:38:54 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 06:38:54 Log.java INFO  [main] utils.Log 18 - Inside verifyForgotPasswordLink method
+ 10-07-2016 06:38:54 Log.java ERROR [main] utils.Log 27 - Test failed
+ 10-07-2016 06:38:54 Log.java ERROR [main] utils.Log 27 - Inside onTestFailure Method
+ 10-07-2016 06:38:54 Log.java INFO  [main] utils.Log 18 - Inside screenshot capture method
+ 10-07-2016 06:38:54 Log.java ERROR [main] utils.Log 27 - Test failed
+ 10-07-2016 06:38:54 Log.java ERROR [main] utils.Log 27 - Inside onTestFailure Method
+ 10-07-2016 06:38:54 Log.java INFO  [main] utils.Log 18 - Inside screenshot capture method
+ 10-07-2016 06:38:54 Log.java INFO  [main] utils.Log 18 - Flushing and closing the extent report object!!!
+ 10-07-2016 06:43:44 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 06:43:44 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 06:43:44 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 06:43:44 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 06:43:44 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 06:43:44 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 06:43:44 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 06:43:44 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 06:43:44 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 06:43:44 Log.java INFO  [main] utils.Log 18 - Inside verifyForgotPasswordLink method
+ 10-07-2016 06:43:44 Log.java ERROR [main] utils.Log 27 - Test failed
+ 10-07-2016 06:43:44 Log.java ERROR [main] utils.Log 27 - Inside onTestFailure Method
+ 10-07-2016 06:43:44 Log.java INFO  [main] utils.Log 18 - Inside screenshot capture method
+ 10-07-2016 06:43:44 Log.java ERROR [main] utils.Log 27 - Test failed
+ 10-07-2016 06:43:44 Log.java ERROR [main] utils.Log 27 - Inside onTestFailure Method
+ 10-07-2016 06:43:44 Log.java INFO  [main] utils.Log 18 - Inside screenshot capture method
+ 10-07-2016 06:43:44 Log.java INFO  [main] utils.Log 18 - Flushing and closing the extent report object!!!
+ 10-07-2016 06:45:58 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 06:45:58 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 06:45:58 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 06:45:58 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 06:45:58 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 06:45:58 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 06:45:58 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 06:45:58 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 06:45:58 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 06:45:58 Log.java INFO  [main] utils.Log 18 - Inside languageTest method
+ 10-07-2016 06:45:58 Log.java ERROR [main] utils.Log 27 - exception occured while closing the browser
+ 10-07-2016 06:46:18 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 06:46:18 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 06:46:18 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 06:46:18 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 06:46:18 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 06:46:18 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 06:46:18 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 06:46:18 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 06:46:18 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 06:46:18 Log.java INFO  [main] utils.Log 18 - Inside languageTest method
+ 10-07-2016 06:46:18 Log.java ERROR [main] utils.Log 27 - exception occured while closing the browser
+ 10-07-2016 07:25:18 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 07:25:18 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 07:25:18 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 07:25:18 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 07:25:18 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 07:25:18 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 07:25:18 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 07:25:18 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 07:25:18 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 07:25:18 Log.java INFO  [main] utils.Log 18 - Inside webmail login test method
+ 10-07-2016 07:25:18 Log.java INFO  [main] utils.Log 18 - Inside webmail login test method
+ 10-07-2016 07:25:18 Log.java INFO  [main] utils.Log 18 - Inside no username no password method
+ 10-07-2016 07:25:18 Log.java INFO  [main] utils.Log 18 - Inside no username with valid password method
+ 10-07-2016 07:25:18 Log.java ERROR [main] utils.Log 27 - Test failed
+ 10-07-2016 07:25:18 Log.java ERROR [main] utils.Log 27 - Inside onTestFailure Method
+ 10-07-2016 07:25:18 Log.java INFO  [main] utils.Log 18 - Inside screenshot capture method
+ 10-07-2016 07:25:18 Log.java ERROR [main] utils.Log 27 - Test failed
+ 10-07-2016 07:25:18 Log.java ERROR [main] utils.Log 27 - Inside onTestFailure Method
+ 10-07-2016 07:25:18 Log.java INFO  [main] utils.Log 18 - Inside screenshot capture method
+ 10-07-2016 07:25:18 Log.java INFO  [main] utils.Log 18 - Flushing and closing the extent report object!!!
+ 10-07-2016 07:25:43 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 07:25:43 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 07:25:43 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 07:25:43 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 07:25:43 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 07:25:43 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 07:25:43 Log.java INFO  [main] utils.Log 18 - The Chrome Driver Path is = D:\testautomationframework-master\src\main\java\resources\webdriver\chromedriver.exe
+ 10-07-2016 07:25:43 Log.java ERROR [main] utils.Log 27 - Failed to init the web driver
+ 10-07-2016 07:25:43 Log.java ERROR [main] utils.Log 27 - Exception while opening a browser Failed to init the web driver - CHROME_DRIVER
+ 10-07-2016 07:25:43 Log.java INFO  [main] utils.Log 18 - Inside webmail login test method
+ 10-07-2016 07:25:43 Log.java INFO  [main] utils.Log 18 - Inside webmail login test method
+ 10-07-2016 07:25:43 Log.java INFO  [main] utils.Log 18 - Inside no username no password method
+ 10-07-2016 07:25:43 Log.java INFO  [main] utils.Log 18 - Inside no username with valid password method
+ 10-07-2016 07:25:43 Log.java ERROR [main] utils.Log 27 - Test failed
+ 10-07-2016 07:25:43 Log.java ERROR [main] utils.Log 27 - Inside onTestFailure Method
+ 10-07-2016 07:25:43 Log.java INFO  [main] utils.Log 18 - Inside screenshot capture method
+ 10-07-2016 07:25:43 Log.java ERROR [main] utils.Log 27 - Test failed
+ 10-07-2016 07:25:43 Log.java ERROR [main] utils.Log 27 - Inside onTestFailure Method
+ 10-07-2016 07:25:43 Log.java INFO  [main] utils.Log 18 - Inside screenshot capture method
+ 10-07-2016 07:25:43 Log.java INFO  [main] utils.Log 18 - Flushing and closing the extent report object!!!
+ 10-07-2016 07:27:53 Log.java INFO  [main] utils.Log 18 - Set webdriver implicitlyWait seleniumTimeOut to 30000(MilliSeconds)
+ 10-07-2016 07:27:53 Log.java ERROR [main] utils.Log 27 - Unable to set implicitly wait!!
+ 10-07-2016 07:27:53 Log.java INFO  [main] utils.Log 18 - Set webdriver pageLoadTimeOut to 180000(MilliSeconds)
+ 10-07-2016 07:27:53 Log.java ERROR [main] utils.Log 27 - Unable to set implicitly wait!!
+ 10-07-2016 07:27:54 Log.java INFO  [main] utils.Log 18 - Inside webmail login test method
+ 10-07-2016 07:27:54 Log.java INFO  [main] utils.Log 18 - Inside webmail login test method
+ 10-07-2016 07:27:54 Log.java INFO  [main] utils.Log 18 - Inside no username no password method
+ 10-07-2016 07:27:54 Log.java INFO  [main] utils.Log 18 - Inside no username with valid password method
+ 10-07-2016 07:30:31 Log.java ERROR [main] utils.Log 27 - Test failed
+ 10-07-2016 07:30:31 Log.java ERROR [main] utils.Log 27 - Inside onTestFailure Method
+ 10-07-2016 07:30:31 Log.java INFO  [main] utils.Log 18 - Inside screenshot capture method
+ 10-07-2016 07:30:32 Log.java INFO  [main] utils.Log 18 - Inside languageTest method
+ 10-07-2016 07:30:32 Log.java ERROR [main] utils.Log 27 - Test failed
+ 10-07-2016 07:30:32 Log.java ERROR [main] utils.Log 27 - Inside onTestFailure Method
+ 10-07-2016 07:30:32 Log.java INFO  [main] utils.Log 18 - Inside screenshot capture method
+ 10-07-2016 07:30:33 Log.java INFO  [main] utils.Log 18 - closing all browser instances
+ 10-07-2016 07:30:33 Log.java INFO  [main] utils.Log 18 - Flushing and closing the extent report object!!!
+ 

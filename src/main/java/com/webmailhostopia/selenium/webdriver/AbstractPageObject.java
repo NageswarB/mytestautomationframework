@@ -4,9 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.Properties;
 import java.util.Set;
@@ -16,11 +14,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -28,15 +25,12 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.ITestResult;
-
 import com.google.common.base.Function;
 
-import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import com.webmailhostopia.common.utils.ByLocator;
+import com.webmailhostopia.common.utils.LanguageType;
 import com.webmailhostopia.common.utils.Log;
-import com.webmailhostopia.common.utils.TestCommonResource;
 
 /**
  * 
@@ -56,7 +50,10 @@ public class AbstractPageObject {
 	protected static final long DefaultTimeOutInSeconds = 30;
 	protected static Properties SUTprop;
 	protected static Properties elementLocatorProp;
+	protected static Properties engTestData;
+	protected static Properties otherLangTestData;
 	protected static final long shortTimeOutInSeconds = 1;
+	public static String language;
 
 	protected enum SimplePopUpAction{ClickOK, ClickCancel, ClickYes, ClickNO }
 
@@ -70,6 +67,13 @@ public class AbstractPageObject {
 	static{
 		loadEnvironmentProps();
 		loadElementLocatorsRepository();
+
+		try {
+			loadLanguageTestDataEng();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	public AbstractPageObject(){
@@ -89,7 +93,7 @@ public class AbstractPageObject {
 		File f=new File(workDir + "/environment.properties");
 
 		if( f.exists()){
-			Log.info(workDir + " is exists!!");
+			//Log.info(workDir + " is exists!!");
 			try{
 				SUTprop.load(new FileInputStream(f));
 			}catch(FileNotFoundException fnfe){
@@ -98,10 +102,49 @@ public class AbstractPageObject {
 				e.printStackTrace();
 			}
 		}else{
-			Log.error(f.getName() + " not found !!!");
+			//Log.error(f.getName() + " not found !!!");
 		}
 	}
 
+	public static void loadLanguageTestDataV2(String filePath){
+		File f = null;
+		otherLangTestData = new Properties();
+		f=new File(filePath);
+
+		if( f.exists()){
+			//Log.info(workDir + " is exists!!");
+			try{
+				otherLangTestData.load(new FileInputStream(f));
+			}catch(FileNotFoundException fnfe){
+				fnfe.printStackTrace();
+			}catch(IOException e){
+				e.printStackTrace();
+			}
+		}else{
+			//Log.error(f.getName() + " not found !!!");
+		}
+	}
+
+	public static void loadLanguageTestDataEng() throws Exception{
+		engTestData = new Properties();
+		String workDir = System.getProperty("user.dir");
+
+		File f=new File(workDir + "/language_test_data_eng.properties");
+
+		if( f.exists()){
+			//Log.info(workDir + " is exists!!");
+			try{
+				engTestData.load(new FileInputStream(f));
+				loadLanguageTestDataV2(setLanguagePropFilePath());
+			}catch(FileNotFoundException fnfe){
+				fnfe.printStackTrace();
+			}catch(IOException e){
+				e.printStackTrace();
+			}
+		}else{
+			//Log.error(f.getName() + " not found !!!");
+		}
+	}
 	public static void loadElementLocatorsRepository(){
 		elementLocatorProp = new Properties();
 		String workDir = System.getProperty("user.dir");
@@ -109,7 +152,7 @@ public class AbstractPageObject {
 		File f=new File(workDir + "/elementlocators.properties");
 
 		if( f.exists()){
-			Log.info(workDir + " is exists!!");
+			//Log.info(workDir + " is exists!!");
 			try{
 				elementLocatorProp.load(new FileInputStream(f));
 			}catch(FileNotFoundException fnfe){
@@ -118,7 +161,7 @@ public class AbstractPageObject {
 				e.printStackTrace();
 			}
 		}else{
-			Log.error(f.getName() + " not found !!!");
+			//Log.error(f.getName() + " not found !!!");
 		}
 	}
 
@@ -228,7 +271,7 @@ public class AbstractPageObject {
 	public void typeEditBox(String editBoxName, String textToType) throws Exception{
 
 		String xpath = "//input[@id='" + editBoxName + "' or " +
-				"@name='" + editBoxName + "']";
+				"@name='" + editBoxName + "'] | " + editBoxName ;
 
 		waitForElementVisibility(By.xpath(xpath));
 		WebElement editBox = driver.findElement(By.xpath(xpath));
@@ -264,7 +307,7 @@ public class AbstractPageObject {
 	public WebElement waitUntilElementVisibility(final By by){
 
 		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
-				.withTimeout(60, TimeUnit.SECONDS)
+				.withTimeout(90, TimeUnit.SECONDS)
 				.pollingEvery(10, TimeUnit.SECONDS)
 				.ignoring(NoSuchElementException.class);
 
@@ -639,6 +682,8 @@ public class AbstractPageObject {
 		case xpath:			
 			try {
 				element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(elementLocator)));
+				element.click();
+				//
 			} catch (org.openqa.selenium.TimeoutException ex) {
 				// ignore exception, return null instead
 			}
@@ -694,6 +739,7 @@ public class AbstractPageObject {
 		if (link!=null){
 			highlightElement(driver, link);
 			link.click();
+			//screenshot capture
 		} else {
 			throw new  Exception("Failed to find link text: " + linkText);
 		}
@@ -1446,6 +1492,93 @@ public class AbstractPageObject {
 			}
 		}
 	}
-	
-	
+
+	public static void refreshWebPage()throws Exception{
+		try{
+			driver.get(driver.getCurrentUrl());
+		}catch(Exception e){
+			//
+		}
+
+	}
+
+	public static void clickClose(WebElement element) throws InterruptedException{		
+		element.click();
+	}
+
+	public void moveToElement(String linkText)throws Exception{
+		WebElement we = driver.findElement(By.linkText(linkText));
+		moveToElement(we);
+	}
+
+	public void moveToElement(WebElement we)throws Exception{
+
+		Log.info("Inside moveToElement method");
+		Actions actions = new Actions(driver);
+		actions.moveToElement(we).build().perform();
+	}
+
+	public WebElement pollDOMUntilElementVisibility(By by,int numberOfPollAttemtps)throws Exception{
+
+		WebElement we = null;
+		boolean isElementPresent = false;
+		int pollIter = 0;
+
+		do {
+			try{
+				Log.info("Trying to find element by polling to DOM in attempt " + pollIter);
+				we = driver.findElement(by);
+			}catch(NoSuchElementException e){
+				Thread.sleep(5000);
+				continue;
+			}
+			if( we != null){
+				isElementPresent = true;
+				break;
+			}
+			pollIter++;
+		}while(isElementPresent == true || pollIter == numberOfPollAttemtps);
+
+		return we;
+
+	}
+
+
+	public static String setLanguagePropFilePath()throws Exception{
+		
+		String workDir = System.getProperty("user.dir");
+		String filepath=null;
+		LanguageType lt = setLangType();
+		switch (lt) {
+		case FRENCH:
+			filepath= workDir + "/language_test_data_eng.properties";
+			language = "French";
+			break;
+
+		default:
+			break;
+		}
+
+
+
+
+		return filepath;
+	}
+
+	private static LanguageType setLangType() throws Exception{
+
+		LanguageType lanType = null;
+		String languageType = null;
+
+		languageType = SUTprop.getProperty("LANGUAGE");
+
+		if( languageType != null){
+			if(languageType.equalsIgnoreCase("Spanish")){
+				lanType = LanguageType.SPANISH;
+			}else if(languageType.equalsIgnoreCase("French")){
+				lanType = LanguageType.FRENCH;
+			}		
+		}
+		return lanType;
+	}
 }

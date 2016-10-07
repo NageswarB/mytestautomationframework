@@ -2,6 +2,8 @@ package com.webmailhostopia.common.utils;
 
 import org.apache.log4j.Logger;
 
+import com.relevantcodes.extentreports.LogStatus;
+
 /**
  * 
  * @author nageswar.bodduri
@@ -14,6 +16,7 @@ public class Log {
 	
 	public static void info(String message){
 		log.info(message);
+		ExtentTestManager.getTest().log(LogStatus.INFO, message);
 	}
 	
 	public static void warn(String message){

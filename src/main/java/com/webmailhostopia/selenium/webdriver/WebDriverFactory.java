@@ -2,13 +2,10 @@ package com.webmailhostopia.selenium.webdriver;
 
 import java.util.ArrayList;
 
-import javax.management.DescriptorRead;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
@@ -135,16 +132,16 @@ public class WebDriverFactory {
 		}
 		return webDriver;
 	}
-	
+
 	protected static WebDriver getFirefoxDriver(){
-		
+
 		WebDriver webDriver = null;
-		
+
 		try{
-//			FirefoxProfile prof = new FirefoxProfile();
-//			prof.setPreference("browser.startup.homepage_override.mstone", "ignore");
-//			prof.setPreference("startup.homepage_welcome_url.additional",  "about:blank");
-//			webDriver = new FirefoxDriver(prof);
+			//			FirefoxProfile prof = new FirefoxProfile();
+			//			prof.setPreference("browser.startup.homepage_override.mstone", "ignore");
+			//			prof.setPreference("startup.homepage_welcome_url.additional",  "about:blank");
+			//			webDriver = new FirefoxDriver(prof);
 			webDriver = new FirefoxDriver();
 		}catch(Exception e){
 			Log.error("Exception occured while creating firefox driver object");

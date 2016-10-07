@@ -1,14 +1,8 @@
 package com.webmailhostopia.testimpl;
 
-import java.text.NumberFormat;
-import java.text.ParseException;
-import java.util.List;
-
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import com.webmailhostopia.common.utils.ByLocator;
 import com.webmailhostopia.common.utils.Log;
 import com.webmailhostopia.selenium.webdriver.AbstractPageObject;
@@ -21,6 +15,7 @@ import com.webmailhostopia.selenium.webdriver.AbstractPageObject;
  */
 public class MailLoginPage extends AbstractPageObject{
 
+	LoginHelper helper = new LoginHelper();
 	//this will call the AbstractPageObject C'tor which will initialize driver object
 	public MailLoginPage() {
 		super();
@@ -42,10 +37,19 @@ public class MailLoginPage extends AbstractPageObject{
 				if( loginBtn != null){
 					typeEditBox(elementLocatorProp.getProperty("USERNAME_ID"), userName);
 					typeEditBox(elementLocatorProp.getProperty("PASSWORD_ID"), password);
-					loginBtn.click();
-					Thread.sleep(5000);
-					if ( waitForElementToBeClickable(ByLocator.xpath, elementLocatorProp.getProperty("USER_NAME_AREA"), 60) != null){
+					driver.findElement(By.id(elementLocatorProp.getProperty("PASSWORD_ID"))).sendKeys(Keys.TAB);
+					
+					if( SUTprop.getProperty("BROWSER").equalsIgnoreCase("iexplorer")){
+						loginBtn.sendKeys(Keys.ENTER);
+					}else{
+						loginBtn.click();
+					}
+										
+					if( pollDOMUntilElementVisibility(By.xpath(elementLocatorProp.getProperty("NEW_EMAIL_XPATH")), 5) != null){
+						Log.info("New email pencil button is present");
 						isLoggedIn = true;
+					}else{
+						Log.error("New email pencil button not present");
 					}
 				}
 			}catch(Exception e){
@@ -56,6 +60,87 @@ public class MailLoginPage extends AbstractPageObject{
 		return isLoggedIn;
 	}
 
+	public String noUserNameWithValidPassword(String sUserName, String sPassword) throws Exception{
+		Log.info("Inside no username with valid password method");
+		return testLogin(sUserName, sPassword);
+	}
+
+	public String validUserNameWithNoPassword(String sUserName, String sPassword) throws Exception{
+		Log.info("Inside valid username with no password method");
+		return testLogin(sUserName, sPassword);
+	}
+
+	public String noUserNameNoPassword(String sUserName, String sPassword) throws Exception{
+		Log.info("Inside no username no password method");
+		return testLogin(sUserName, sPassword);
+	}
+
+	public String testLogin(String sUserName,String sPassword)throws Exception{
+		Log.info("Inside no username with valid password method");
+		String actualWarnMessage = null;
+
+		boolean isLoggedIn = false;
+
+		if (!driver.getCurrentUrl().contains(SUTprop.getProperty("URL")) ) {
+			driver.get(SUTprop.getProperty("URL"));
+			isBrowserOpen = true;
+		}
+
+		if(isBrowserOpen && driver.getCurrentUrl().contains(SUTprop.getProperty("URL"))){
+
+			WebElement loginBtn = waitForElementToBeClickable(ByLocator.xpath, elementLocatorProp.getProperty("LOGIN_BTN"), 60);
+			if( loginBtn != null){
+				typeEditBox(elementLocatorProp.getProperty("USERNAME_ID"), sUserName);
+				typeEditBox(elementLocatorProp.getProperty("PASSWORD_ID"), sPassword);
+				driver.findElement(By.id(elementLocatorProp.getProperty("PASSWORD_ID"))).sendKeys(Keys.TAB);
+				loginBtn.click();
+
+				WebElement alertDangerArea = waitUntilElementVisibility(By.xpath(elementLocatorProp.getProperty("LOGIN_ALERT_AREA")));
+				if( alertDangerArea != null){
+					actualWarnMessage = alertDangerArea.getText();
+					Log.info("Warning message received : " + actualWarnMessage);
+					clickClose(driver.findElement(By.xpath(elementLocatorProp.getProperty("CLOSE_BUTTON_XPATH"))));
+					refreshWebPage();
+				}else{
+					Log.error("No warn messsage has been found with no username and no password entered");
+				}
+			}
+		}
+		return actualWarnMessage;
+	}
+
+	public boolean verifyForgotPasswordLink() throws Exception{
+		int failCounter = 0;
+		String expectedAlertMsg = "Please provide the characters from the picture.";
+		
+		if (!driver.getCurrentUrl().contains(SUTprop.getProperty("URL")) ) {
+			driver.get(SUTprop.getProperty("URL"));
+			isBrowserOpen = true;
+		}
+		
+		WebElement forgotPwdLink = waitUntilElementVisibility(By.xpath(elementLocatorProp.getProperty("FORGOT_PWD_LINK")));
+		
+		if( forgotPwdLink != null){
+			forgotPwdLink.click();
+			WebElement alertDanger = waitUntilElementVisibility(By.xpath(elementLocatorProp.getProperty("FORGOT_PASSWORD_AREA")));
+			if( !alertDanger.getText().equalsIgnoreCase(expectedAlertMsg)){
+				failCounter++;
+			}
+			
+			typeEditBox(elementLocatorProp.getProperty("USERNAME_ID"), "testuser");
+			typeEditBox(elementLocatorProp.getProperty("CAPTCHA_TEXT_ID"), "captchatext");
+			
+			if( !helper.clickCancelInForgotPwdScreen()){
+				failCounter++;
+			}
+			
+		}
+		
+		
+		
+		return (failCounter == 0) ? true : false;
+		
+	}
 
 	//close all open browser instances
 	public void quit(){

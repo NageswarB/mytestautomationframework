@@ -6,7 +6,9 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -15,6 +17,7 @@ import org.testng.ITestResult;
 
 import com.relevantcodes.extentreports.DisplayOrder;
 import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.NetworkMode;
 import com.webmailhostopia.selenium.webdriver.AbstractPageObject;
 
@@ -43,7 +46,7 @@ private static ExtentReports extent;
     public synchronized static ExtentReports getReporter(){
     	return extent;
     }
-    
+        
     public static String takescreen(ITestResult result) throws IOException {
 
     	Log.info("Inside screenshot capture method");
@@ -58,4 +61,6 @@ private static ExtentReports extent;
 		}
 		return failureImageFile.getPath();
 	}
+    
+    
 }

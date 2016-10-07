@@ -10,6 +10,7 @@ import javax.mail.Authenticator;
 import javax.mail.Message;
 import javax.mail.MessagingException;
 import javax.mail.Multipart;
+import javax.mail.Part;
 import javax.mail.PasswordAuthentication;
 import javax.mail.Session;
 import javax.mail.Transport;
@@ -58,6 +59,7 @@ public class EmailUtil {
 
 		// creates a new session with an authenticator
 		Authenticator auth = new Authenticator() {
+			@Override
 			public PasswordAuthentication getPasswordAuthentication() {
 				return new PasswordAuthentication(userName, password);
 			}
@@ -104,7 +106,7 @@ public class EmailUtil {
 			for (String contentId : setImageID) {
 				MimeBodyPart imagePart = new MimeBodyPart();
 				imagePart.setHeader("Content-ID", "<" + contentId + ">");
-				imagePart.setDisposition(MimeBodyPart.INLINE);
+				imagePart.setDisposition(Part.INLINE);
 				
 				String imageFilePath = mapInlineImages.get(contentId);
 				try {
