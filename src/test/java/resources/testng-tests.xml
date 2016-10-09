@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WebMailHostopiaRegression">
+  <listeners>
+        <listener class-name="com.webmailhostopia.selenium.webdriver.ExtentListener" />
+  </listeners>
+  <test verbose="2" name="WebMailHostopiaRegressionTest" allow-return-values="true">
+  <parameter name="sUserName" value="test-ek5@steele.hostopia.com"/>
+  <parameter name="sPassword" value="Temp1234%"/>
+  <parameter name="mailTo" value="test-ek5@steele.hostopia.com"/>
+  <parameter name="subject" value="Test E-mail Subject"/>
+  <parameter name="mailBody" value="This is a test e-mail\n Thanks and Best Regards, \n Testing Team"/>
+  <parameter name="userDropDownOptions" value="Tour,Feedback,Support Center,Logout"/>
+  <parameter name="searchDropDownOptions" value="Tour,Feedback,Support Center,Logout"/>
+    <classes>
+      <class name="com.webmailhostopia.tests.WebMailHostpiaRegressionTests"/>
+    </classes>
+  </test>
+</suite>
