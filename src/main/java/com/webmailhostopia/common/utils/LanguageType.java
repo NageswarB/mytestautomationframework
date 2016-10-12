@@ -4,7 +4,15 @@ public enum LanguageType {
 	
 	
 		FRENCH("French"), 
-		SPANISH("Spanish");
+		GERMAN("German"),
+		SPANISH("Spanish"),
+		SPANISHFORAMERICA("SpanishForAmerica"),
+		ITALIAN("Italian"),
+		PORTUGUES("Portugues"),
+		GREEK("Greek"),
+		ROMAN("Roman"),
+		HUNGARIAN("Hungarian"),
+		SWEDISH("Swedish");
 		
 		private String value;
 
