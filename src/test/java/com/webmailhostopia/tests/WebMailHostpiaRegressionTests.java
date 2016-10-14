@@ -40,7 +40,7 @@ public class WebMailHostpiaRegressionTests {
 		Log.info("Inside verifyForgotPasswordLink method");
 		Assert.assertEquals(login.verifyForgotPasswordLink(), expected);
 	}*/
-	
+
 	@Test(priority=1,description="This is webmail login test with valid username and password",
 			groups="Regression",testName = "WebMail Valid Login Test")
 	@Parameters({ "sUserName", "sPassword" })
@@ -49,7 +49,7 @@ public class WebMailHostpiaRegressionTests {
 		Log.info("Inside webmail login test method");
 		boolean expected = true;
 		int failCounter = 0;
-
+		/*
 		String expectedWarnMessage1 = "Please provide your username.";
 		String expectedWarnMessage2 = "Please provide your password.";
 
@@ -78,9 +78,9 @@ public class WebMailHostpiaRegressionTests {
 		}else{
 			failCounter++;
 			Log.warn("");
-		}
+		}*/
 
-		Assert.assertEquals(failCounter, 0);
+		//Assert.assertEquals(failCounter, 0);
 		Assert.assertEquals(login.loginToWebMail(sUserName,sPassword), expected);
 
 	}
@@ -94,7 +94,7 @@ public class WebMailHostpiaRegressionTests {
 		//Assert.assertEquals(homepage.verifyMainActivityPage(), expected);
 		Assert.assertEquals(login.loginToWebMail(sUserName,sPassword), expected);
 	}
-	
+
 	@Test(priority=1,description="This method is used to send e-mail",
 			groups="Regression",testName = "Verify main send functionality")
 	@Parameters({ "mailTo", "subject", "mailBody" })
@@ -103,7 +103,7 @@ public class WebMailHostpiaRegressionTests {
 		Log.info("Inside verifyEmailSendFunctionality method");
 		Assert.assertEquals(homepage.sendEmail(mailTo, subject, mailBody), expected);
 	}
-	
+
 	@Test(priority=2,description="This method is used to verify the GUI options in Main Home page",
 			groups="Regression",testName = "Verify Main Page Functionality functionality")
 	@Parameters({ "userDropDownOptions", " " })
@@ -112,7 +112,7 @@ public class WebMailHostpiaRegressionTests {
 		Log.info("Inside verifyEmailSendFunctionality method");
 		Assert.assertEquals(homepage.verifyOptionsAvailableInMainPage(userDropDownOptions), expected);
 	}
-	
+
 	@Test(priority=2,description="This method is used to verify tour option functionality",
 			groups="Regression",testName = "Verify main send functionality")
 	public void verifyTourOptionFunctionality() throws Exception {
@@ -120,7 +120,7 @@ public class WebMailHostpiaRegressionTests {
 		Log.info("Inside verifyTourOptionFunctionality method");
 		Assert.assertEquals(homepage.verifyTourOptionFunctionality(), expected);
 	}*/
-	
+
 	/*@Test(priority=2,description="This method is used to verify compose and send email functionality",
 			groups="Regression",testName = "Verify mail send functionality")
 	@Parameters({ "toMail"})
@@ -129,18 +129,26 @@ public class WebMailHostpiaRegressionTests {
 		Log.info("Inside composeAndSendMail method");
 		Assert.assertEquals(inboxPage.composeAndSendMail(toMail), expected);
 	}
-	*/
-	
+	 */
+
 	@Test(priority=2)
-	public void languageTest() throws Exception {
+	public void labelsLanguageTestInPreferenceTabForEnglish() throws Exception {
 		boolean expected = true;
-		Log.info("Inside languageTest method");
-		Assert.assertEquals(ltest.languageTest(), expected);
+		Log.info("Inside labelsLanguageTestInPreferenceTab method");
+		Assert.assertEquals(LanguageTest.labelsLanguageTestInPreferenceTabForEnglish(), expected);
 	}
+	
+	@Test(priority=3)
+	public void labelsLanguageTestInPreferenceTabForNonEnglish() throws Exception {
+		boolean expected = true;
+		Log.info("Inside labelsLanguageTestInPreferenceTab method");
+		Assert.assertEquals(LanguageTest.labelsLanguageTestInPreferenceTabForNonEnglish(), expected);
+	}
+	
 	
 	@AfterClass
 	public void tearDown(){
 		login.quit();
-		
+
 	}
-}  
+}

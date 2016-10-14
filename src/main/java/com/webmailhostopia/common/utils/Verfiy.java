@@ -5,7 +5,7 @@ import java.util.Locale;
 
 public class Verify {
 
-	public static boolean verifyArrayofStrings(String[] actual, String[] expected, boolean ignorecase){
+	public static boolean compareStringsInEnglish(String[] actual, String[] expected, boolean ignorecase){
 		boolean isTrue=true;
 		if(actual.length!=expected.length)
 		{
@@ -42,10 +42,10 @@ public class Verify {
 		return isTrue;
 	}
 
-	public static boolean compareStringInNonEnglish(String[] actual, String[] expected)throws Exception{
+	public static boolean compareStringInNonEnglish(String[] actual, String[] expected,Locale locale)throws Exception{
 
 		boolean isTrue=true;
-		Collator collator = Collator.getInstance(Locale.FRENCH);
+		Collator collator = Collator.getInstance(locale);
 
 		if(actual.length!=expected.length){
 			Log.info("Actual and Expected arrays Lengths are not equal: Actual: "+ actual.length+ "  Expected: "+expected.length);

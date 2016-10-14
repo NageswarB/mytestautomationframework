@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.Properties;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -53,7 +54,8 @@ public class AbstractPageObject {
 	protected static Properties engTestData;
 	protected static Properties otherLangTestData;
 	protected static final long shortTimeOutInSeconds = 1;
-	public static String language;
+	public static String languageValue;
+	public static Locale locale;
 
 	protected enum SimplePopUpAction{ClickOK, ClickCancel, ClickYes, ClickNO }
 
@@ -114,6 +116,8 @@ public class AbstractPageObject {
 		if( f.exists()){
 			//Log.info(workDir + " is exists!!");
 			try{
+				System.out.println("Loading other language test data...");
+				System.out.println("Property file location for other language : " + f);
 				otherLangTestData.load(new FileInputStream(f));
 			}catch(FileNotFoundException fnfe){
 				fnfe.printStackTrace();
@@ -134,6 +138,7 @@ public class AbstractPageObject {
 		if( f.exists()){
 			//Log.info(workDir + " is exists!!");
 			try{
+				System.out.println("Loading english language test data...");
 				engTestData.load(new FileInputStream(f));
 				loadLanguageTestDataV2(setLanguagePropFilePath());
 			}catch(FileNotFoundException fnfe){
@@ -1545,23 +1550,65 @@ public class AbstractPageObject {
 
 
 	public static String setLanguagePropFilePath()throws Exception{
-		
+
 		String workDir = System.getProperty("user.dir");
 		String filepath=null;
 		LanguageType lt = setLangType();
 		switch (lt) {
 		case FRENCH:
-			filepath= workDir + "/language_test_data_eng.properties";
-			language = "French";
+			filepath= workDir + "\\language_test_data_french.properties";
+			languageValue = "2";
+			locale = new Locale("fr", "FR");
 			break;
-
+		case GERMAN:
+			filepath= workDir + "\\language_test_data_german.properties";
+			languageValue = "3";
+			locale = new Locale("de", "DE");
+			break;
+		case SPANISH:
+			filepath= workDir + "\\language_test_data_spanish.properties";
+			languageValue = "4";
+			locale = new Locale("es", "ES");
+			break;
+		case SPANISHFORAMERICA:
+			filepath= workDir + "\\language_test_data_spanishforamerica.properties";
+			languageValue = "5";
+			locale = new Locale("es", "US");
+			break;
+		case ITALIAN:
+			filepath= workDir + "\\language_test_data_italian.properties";
+			languageValue = "6";
+			locale = new Locale("it", "IT");
+			break;
+		case PORTUGUES:
+			filepath= workDir + "\\language_test_data_portugues.properties";
+			languageValue = "7";
+			locale = new Locale("pt", "PT");
+			break;
+		case GREEK:
+			filepath= workDir + "\\language_test_data_greek.properties";
+			languageValue = "8";
+			locale = new Locale("el", "GR");
+			break;
+		case ROMAN:
+			filepath= workDir + "\\language_test_data_german.properties";
+			languageValue = "9";
+			locale = new Locale("ro", "RO");
+			break;
+		case HUNGARIAN:
+			filepath= workDir + "\\language_test_data_hungarian.properties";
+			languageValue = "10";
+			locale = new Locale("hu", "HU");
+			break;
+		case SWEDISH:
+			filepath= workDir + "\\language_test_data_swedish.properties";
+			languageValue = "11";
+			locale = new Locale("sv", "SE");
+			break;
 		default:
+			Log.error("Please provide appropriate language in environment.properties");
 			break;
 		}
-
-
-
-
 		return filepath;
 	}
 
@@ -1573,10 +1620,26 @@ public class AbstractPageObject {
 		languageType = SUTprop.getProperty("LANGUAGE");
 
 		if( languageType != null){
-			if(languageType.equalsIgnoreCase("Spanish")){
-				lanType = LanguageType.SPANISH;
-			}else if(languageType.equalsIgnoreCase("French")){
+			if(languageType.equalsIgnoreCase("French")){
 				lanType = LanguageType.FRENCH;
+			}else if(languageType.equalsIgnoreCase("German")){
+				lanType = LanguageType.GERMAN;
+			}else if(languageType.equalsIgnoreCase("Spanish")){
+				lanType = LanguageType.SPANISH;
+			}else if(languageType.equalsIgnoreCase("SpanishForAmerica")){
+				lanType = LanguageType.SPANISHFORAMERICA;
+			}else if(languageType.equalsIgnoreCase("Italian")){
+				lanType = LanguageType.ITALIAN;
+			}else if(languageType.equalsIgnoreCase("Portugues")){
+				lanType = LanguageType.PORTUGUES;
+			}else if(languageType.equalsIgnoreCase("Greek")){
+				lanType = LanguageType.GREEK;
+			}else if(languageType.equalsIgnoreCase("Roman")){
+				lanType = LanguageType.ROMAN;
+			}else if(languageType.equalsIgnoreCase("Hungarian")){
+				lanType = LanguageType.HUNGARIAN;
+			}else if(languageType.equalsIgnoreCase("Swedish")){
+				lanType = LanguageType.SWEDISH;
 			}		
 		}
 		return lanType;
