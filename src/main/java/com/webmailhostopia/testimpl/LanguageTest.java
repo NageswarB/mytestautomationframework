@@ -11,6 +11,8 @@ import com.webmailhostopia.common.utils.Verify;
 import com.webmailhostopia.selenium.webdriver.AbstractPageObject;
 
 public class LanguageTest extends AbstractPageObject{
+	
+	public static LanguageTestHelper helper = new LanguageTestHelper();
 
 	/**
 	 * This method is used to verify preferences tab labels in English language
@@ -29,7 +31,7 @@ public class LanguageTest extends AbstractPageObject{
 		changeTheLanguageToEnglish();
 		//side navigation bar text validation
 		List<WebElement> ls = driver.findElements(By.xpath(elementLocatorProp.getProperty("SIDE_NAV_BAR_ELE_XPATH")));
-
+		
 		for(WebElement we:ls){
 			String temp = we.getText().trim();
 			if( !temp.isEmpty()){
@@ -47,6 +49,14 @@ public class LanguageTest extends AbstractPageObject{
 			failCounter++;
 		}
 
+		if( !helper.verifyMailViewOptionsValues("english")){
+			failCounter++;
+		}
+		
+		if( !helper.verifyDefaultCompositionModeOptions("english")){
+			failCounter++;
+		}
+		
 		return (failCounter==0)?true:false;
 
 	}
@@ -151,6 +161,5 @@ public class LanguageTest extends AbstractPageObject{
 
 		boolean stepResult = Verify.compareStringInNonEnglish(actuals, expected,locale);
 		return stepResult;
-	}
-
+	}	
 }
