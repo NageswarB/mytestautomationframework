@@ -91,25 +91,25 @@ public class LanguageTestHelper extends AbstractPageObject{
 	public boolean verifyReplyForwardModeOptions(String language)throws Exception{
 
 		boolean stepResult = true;
-		String[] expectedDefaultCompOptions=null;
+		String[] expectedReplyForwardModeOptions=null;
 
 		Log.info("Verifying Reply Forward Mode Options Label Names...");
 
-		//xpath of mail view options dropdown
-		String defaultCompOptionsXpath = elementLocatorProp.getProperty("DEFAULT_COMP_MODE_DROPDOWN_OPTIONS_XPATH");
+		//xpath of default reply forward mode options dropdown
+		String defaultReplyForwardModeOptionsXpath = elementLocatorProp.getProperty("REPLY_FWD_MODE_OPTIONS_XPATH");
 
 		if(language.equalsIgnoreCase("ENGLISH")){
-			expectedDefaultCompOptions = engTestData.getProperty("DEFAULT_COMP_OPTIONS").split(",");
+			expectedReplyForwardModeOptions = engTestData.getProperty("REPLY_FWD_MODE_OPTIONS").split(",");
 		}else{
-			expectedDefaultCompOptions = otherLangTestData.getProperty("DEFAULT_COMP_OPTIONS").split(",");
+			expectedReplyForwardModeOptions = otherLangTestData.getProperty("REPLY_FWD_MODE_OPTIONS").split(",");
 		}
 
-		driver.findElement(By.xpath(elementLocatorProp.getProperty("DEFAULT_COMP_MODE_XPATH"))).click();
+		driver.findElement(By.xpath(elementLocatorProp.getProperty("REPLY_FWD_MODE_XPATH"))).click();
 	
-		if( !verifyOtherLabelOptions(defaultCompOptionsXpath, expectedDefaultCompOptions)){
+		if( !verifyOtherLabelOptions(defaultReplyForwardModeOptionsXpath, expectedReplyForwardModeOptions)){
 			stepResult = false;
 		}
-		driver.findElement(By.xpath(elementLocatorProp.getProperty("DEFAULT_COMP_MODE_XPATH"))).click();
+		driver.findElement(By.xpath(elementLocatorProp.getProperty("REPLY_FWD_MODE_XPATH"))).click();
 		return stepResult;
 	}
 	
@@ -120,25 +120,75 @@ public class LanguageTestHelper extends AbstractPageObject{
 	public boolean verifyDefaultFontTypeOptions(String language)throws Exception{
 
 		boolean stepResult = true;
-		String[] expectedDefaultCompOptions=null;
+		String[] expectedDefaultFontTypeOptions=null;
 
 		Log.info("Verifying Default Font Type Options Label Names...");
 
 		//xpath of mail view options dropdown
-		String defaultCompOptionsXpath = elementLocatorProp.getProperty("DEFUALT_FONT_TYPE_OPTIONS_XPATH");
+		String defaultFontTypeOptionsXpath = elementLocatorProp.getProperty("DEFUALT_FONT_TYPE_OPTIONS_XPATH");
 
 		if(language.equalsIgnoreCase("ENGLISH")){
-			expectedDefaultCompOptions = engTestData.getProperty("DEFAULT_FONT_TYPE_OPTIONS").split(",");
+			expectedDefaultFontTypeOptions = engTestData.getProperty("DEFAULT_FONT_TYPE_OPTIONS").split(",");
 		}else{
-			expectedDefaultCompOptions = otherLangTestData.getProperty("DEFAULT_FONT_TYPE_OPTIONS").split(",");
+			expectedDefaultFontTypeOptions = otherLangTestData.getProperty("DEFAULT_FONT_TYPE_OPTIONS").split(",");
 		}
 
 		driver.findElement(By.xpath(elementLocatorProp.getProperty("DEFUALT_FONT_TYPE_XPATH"))).click();
 	
-		if( !verifyOtherLabelOptions(defaultCompOptionsXpath, expectedDefaultCompOptions)){
+		if( !verifyOtherLabelOptions(defaultFontTypeOptionsXpath, expectedDefaultFontTypeOptions)){
 			stepResult = false;
 		}
 		driver.findElement(By.xpath(elementLocatorProp.getProperty("DEFUALT_FONT_TYPE_XPATH"))).click();
+		return stepResult;
+	}
+	
+	/*
+	 * method to verify header labels in preferences tab
+	 */
+	public boolean verifyHeader4Labels(String language)throws Exception{
+
+		boolean stepResult = true;
+		String[] expectedH4HeaderLabels=null;
+
+		Log.info("Verifying Header4 Label Names...");
+
+		//xpath of mail view options dropdown
+		String h4HeaderLabelsXpath = elementLocatorProp.getProperty("H4_HEADER_LABELS_XPATH");
+
+		if(language.equalsIgnoreCase("ENGLISH")){
+			expectedH4HeaderLabels = engTestData.getProperty("H4_HEADER_LABELS").split(",");
+		}else{
+			expectedH4HeaderLabels = otherLangTestData.getProperty("H4_HEADER_LABELS").split(",");
+		}
+
+		if( !verifyOtherLabelOptions(h4HeaderLabelsXpath, expectedH4HeaderLabels)){
+			stepResult = false;
+		}
+		return stepResult;
+	}
+	
+	/*
+	 * method to verify header labels in preferences tab
+	 */
+	public boolean verifyHeader3Labels(String language)throws Exception{
+
+		boolean stepResult = true;
+		String[] expectedH3HeaderLabels=null;
+
+		Log.info("Verifying Header3 Label Names...");
+
+		//xpath of mail view options dropdown
+		String h3HeaderLabelsXpath = elementLocatorProp.getProperty("H3_HEADER_LABELS_XPATH");
+
+		if(language.equalsIgnoreCase("ENGLISH")){
+			expectedH3HeaderLabels = engTestData.getProperty("H3_HEADER_LABELS").split(",");
+		}else{
+			expectedH3HeaderLabels = otherLangTestData.getProperty("H3_HEADER_LABELS").split(",");
+		}
+
+		if( !verifyOtherLabelOptions(h3HeaderLabelsXpath, expectedH3HeaderLabels)){
+			stepResult = false;
+		}
 		return stepResult;
 	}
 }

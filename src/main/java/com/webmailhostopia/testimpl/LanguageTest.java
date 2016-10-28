@@ -57,6 +57,19 @@ public class LanguageTest extends AbstractPageObject{
 			failCounter++;
 		}
 		
+		if( !helper.verifyReplyForwardModeOptions("english")){
+			failCounter++;
+		}
+		
+		if( !helper.verifyDefaultFontTypeOptions("english")){
+			failCounter++;
+		}
+		
+		if( !helper.verifyHeader4Labels("english")){
+			failCounter++;
+		}
+		
+		
 		return (failCounter==0)?true:false;
 
 	}
@@ -88,6 +101,26 @@ public class LanguageTest extends AbstractPageObject{
 		}
 		String expected[] = otherLangTestData.getProperty("LABELS_IN_PREF_TAB_PAGE").split(",");
 		if( !labelsTestInPreferenceMainActivityPage(expected)){
+			failCounter++;
+		}
+		
+		if( !helper.verifyMailViewOptionsValues("nonenglish")){
+			failCounter++;
+		}
+		
+		if( !helper.verifyDefaultCompositionModeOptions("nonenglish")){
+			failCounter++;
+		}
+		
+		if( !helper.verifyReplyForwardModeOptions("nonenglish")){
+			failCounter++;
+		}
+		
+		if( !helper.verifyDefaultFontTypeOptions("nonenglish")){
+			failCounter++;
+		}
+		
+		if( !helper.verifyHeader4Labels("nonenglish")){
 			failCounter++;
 		}
 
@@ -161,5 +194,6 @@ public class LanguageTest extends AbstractPageObject{
 
 		boolean stepResult = Verify.compareStringInNonEnglish(actuals, expected,locale);
 		return stepResult;
-	}	
+	}
+	
 }
