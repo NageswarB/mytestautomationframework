@@ -43,6 +43,7 @@ public class MailLoginPage extends AbstractPageObject{
 						loginBtn.sendKeys(Keys.ENTER);
 					}else{
 						loginBtn.click();
+						Thread.sleep(10000);
 					}
 										
 					if( pollDOMUntilElementVisibility(By.xpath(elementLocatorProp.getProperty("NEW_EMAIL_XPATH")), 5) != null){

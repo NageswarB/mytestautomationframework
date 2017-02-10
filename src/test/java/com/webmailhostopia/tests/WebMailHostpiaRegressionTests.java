@@ -15,7 +15,7 @@ import com.webmailhostopia.testimpl.MailHomePage;
 import com.webmailhostopia.testimpl.MailInboxPage;
 import com.webmailhostopia.testimpl.MailLoginPage;
 
-public class WebMailHostpiaRegressionTests {
+public class WebMailHostpiaRegressionTests{
 
 	public static MailLoginPage login;
 	public static MailHomePage homepage;
@@ -28,8 +28,8 @@ public class WebMailHostpiaRegressionTests {
 	public void setup(){
 		extent = ExtentManager.getReporter();
 		login = new MailLoginPage();
-		/*homepage = new MailHomePage();
-		inboxPage = new MailInboxPage();*/
+		homepage = new MailHomePage();
+		/*inboxPage = new MailInboxPage();*/
 		ltest=new LanguageTest();
 	}
 
@@ -131,7 +131,7 @@ public class WebMailHostpiaRegressionTests {
 	}
 	 */
 
-	@Test(priority=2)
+	/*@Test(priority=2)
 	public void labelsLanguageTestInPreferenceTabForEnglish() throws Exception {
 		boolean expected = true;
 		Log.info("Inside labelsLanguageTestInPreferenceTab method");
@@ -143,8 +143,14 @@ public class WebMailHostpiaRegressionTests {
 		boolean expected = true;
 		Log.info("Inside labelsLanguageTestInPreferenceTab method");
 		Assert.assertEquals(LanguageTest.labelsLanguageTestInPreferenceTabForNonEnglish(), expected);
-	}
+	}*/
 	
+	@Test(dependsOnMethods="webMailLoginTest")
+	public void verifyMailSectionLabels() throws Exception{
+		boolean expected = true;
+		Log.info("Inside verify labels text in mail section page method");
+		Assert.assertEquals(homepage.verifyLabelsLangugaeInMailHomePage(), expected);
+	}
 	
 	@AfterClass
 	public void tearDown(){

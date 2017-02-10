@@ -9,6 +9,8 @@
    <url>http://maven.apache.org</url>
    <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
    </properties>
    <dependencies>
       <dependency>
@@ -80,13 +82,14 @@
       <plugins>
          <!-- Compiler plug-in -->
          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <configuration>
-               <source>${jdk.level}</source>
-               <target>${jdk.level}</target>
-            </configuration>
-         </plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.1</version>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>
          <!-- Below plug-in is used to execute tests -->
          <plugin>
             <groupId>org.apache.maven.plugins</groupId>

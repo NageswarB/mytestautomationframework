@@ -10,7 +10,7 @@ import com.relevantcodes.extentreports.LogStatus;
  * This class is used to capture the events occurs during test run
  */
 
-public class Log {
+public class Log extends ExtentTestManager{
 
 	private static Logger log = Logger.getLogger(Log.class.getName());
 	

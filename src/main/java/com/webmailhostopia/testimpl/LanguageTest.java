@@ -195,5 +195,4 @@ public class LanguageTest extends AbstractPageObject{
 		boolean stepResult = Verify.compareStringInNonEnglish(actuals, expected,locale);
 		return stepResult;
 	}
-	
 }

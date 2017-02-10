@@ -1,16 +1,20 @@
 package com.webmailhostopia.testimpl;
 
 import java.text.MessageFormat;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import com.webmailhostopia.common.utils.ByLocator;
 import com.webmailhostopia.common.utils.Log;
+import com.webmailhostopia.common.utils.Verify;
 import com.webmailhostopia.selenium.webdriver.AbstractPageObject;
 
 public class MailHomePage extends AbstractPageObject{
@@ -196,5 +200,147 @@ public class MailHomePage extends AbstractPageObject{
 			}
 		}
 		return (failCounter ==0 ) ? true : false;
+	}
+
+	public boolean verifyLabelsLangugaeInMailHomePage()throws Exception{
+		int failCounter = 0;
+
+		Log.info("Changing the language to which is set in environment.prop file");
+		LanguageTest.openPreferencesTab();
+		LanguageTest.changeTheLanguage();
+		if(!navigateToMailPage())
+			failCounter++;
+		if(!validateMailToolTipText())
+			failCounter++;
+		if(!verifySearchPlaceHolderText())
+			failCounter++;
+		if(!verifySearchBarDropDownLabels())
+			failCounter++;
+		if(!verifyAlertTextMessageWhenDiscardNewMail())
+			failCounter++;
+		return (failCounter==0)?true:false;
+	}
+
+	public boolean navigateToMailPage()throws Exception{
+
+		WebElement mailSection = waitForElementToBeClickable(ByLocator.xpath, elementLocatorProp.getProperty("MAIL_SECTION_XPATH"), 60);
+
+		if(mailSection == null){
+			return false;
+		}
+
+		mailSection.click();
+		if( waitForElementToBeClickable(ByLocator.xpath, elementLocatorProp.getProperty("MAIL_LABEL_XPATH"), 60) == null ){
+			return false;
+		}else{
+			return true;
+		}
+	}
+
+	public boolean validateMailToolTipText()throws Exception{
+
+		boolean stepResult = false;
+		String nonEnglishTooltip = otherLangTestData.getProperty("MAIL_ICON_MOUSEOVER_TEXT");
+		String englishToolTip = engTestData.getProperty("MAIL_LABEL_MOUSE_OVERTEXT");
+		
+		Actions builder=new Actions(driver);
+		WebElement mailToolTip=driver.findElement(By.xpath(elementLocatorProp.getProperty("MAIL_LABEL_XPATH")));
+		builder.moveToElement(mailToolTip).perform();
+		String tooltip_msg=mailToolTip.getText();
+		Log.info("Tool tip value : " + tooltip_msg);
+		
+		if( !tooltip_msg.equalsIgnoreCase(englishToolTip)){
+			Log.info("Tool tip text is not in English, hence comparing the with other language");
+			if(Verify.compareStringInNonEnglish(tooltip_msg, nonEnglishTooltip, locale)){
+				Log.info("Tool tip text is in non-english");
+				stepResult=true;
+			}
+		}
+		return stepResult;	
+	}
+	
+	public boolean verifySearchPlaceHolderText()throws Exception{
+		boolean stepResult = false;
+		
+		Log.info("Inside verify search place golder text method");
+		String nonEnglishSearchBarText = otherLangTestData.getProperty("MAIL_SEARCH_BOX_PLACEHOLDER");
+		String englishSearchBarText = engTestData.getProperty("MAIL_LABEL_MOUSE_OVERTEXT");
+		
+		WebElement searchBarPlaceHolder = waitForElementToBeClickable(ByLocator.xpath, elementLocatorProp.getProperty("SEARCH_BAR_PLACE_HOLDER_TEXT"),
+				60);
+		if( searchBarPlaceHolder == null)
+			return false;
+		String searchBarPlaceHolderText = searchBarPlaceHolder.getAttribute("placeholder");
+		
+		if( !searchBarPlaceHolderText.equalsIgnoreCase(englishSearchBarText)){
+			Log.info("Search bar placeholder text is not in English, hence comparing the with other language");
+			if(Verify.compareStringInNonEnglish(searchBarPlaceHolderText, nonEnglishSearchBarText, locale)){
+				Log.info("Tool tip text is in non-english");
+				stepResult=true;
+			}
+		}
+		return stepResult;
+	}
+	
+	public boolean verifySearchBarDropDownLabels()throws Exception{
+		boolean stepResult = false;
+		List<String> lsLabelText = new ArrayList<String>();
+		
+		Log.info("Verfiying search bar dropdwon labels text in mail tab...");
+		
+		String[] expectedInEnglish = engTestData.getProperty("MAIL_SEARCH_BOX_DROPDOWN_VALUES").split(",");
+		String[] expectedInNonEnglish = otherLangTestData.getProperty("MAIL_SEARCH_BOX_DROPDOWN_VALUES").split(",");
+	
+		WebElement searchBarDrpDwonBtn = waitForElementToBeClickable(ByLocator.xpath, elementLocatorProp.getProperty("SEARCH_BAR_DROPDWON_BUTTON_XPATH"), 60);
+		
+		if(searchBarDrpDwonBtn == null)
+			return false;
+		searchBarDrpDwonBtn.click();
+		
+		waitForElementToBeClickable(ByLocator.xpath, elementLocatorProp.getProperty("SEARCH_BAR_DROPDOWN_ITEMS_XPATH"), 60);
+		List<WebElement> lsSearchBarDropdownLabels = driver.findElements(By.xpath(elementLocatorProp.getProperty("SEARCH_BAR_DROPDOWN_ITEMS_XPATH")));
+		for(WebElement label:lsSearchBarDropdownLabels){
+			String temp = label.getText().trim();
+			if( !temp.isEmpty()){
+				lsLabelText.add(label.getText().trim());
+			}
+		}
+		String[] actuals = new String[lsLabelText.size()];
+		actuals = lsLabelText.toArray(actuals);
+
+		if( !Verify.compareStringsInEnglish(actuals, expectedInEnglish,true) && Verify.compareStringInNonEnglish(actuals, expectedInNonEnglish, locale)){
+			Log.info("Search bar dropdown values labels are not in English");
+			stepResult=true;
+			Log.info("Search bar dropdown values labels are in non-English");
+		}
+		
+		return stepResult;
+	}
+	
+	public boolean verifyAlertTextMessageWhenDiscardNewMail()throws Exception{
+		
+		boolean stepResult = false;
+		String alertTextInEnglish = engTestData.getProperty("DISCARD_MAIL_ALERT_TEXT");
+		String alertTextInNonEnglish = otherLangTestData.getProperty("DISCARD_MAIL_ALERT_TEXT"); 
+		
+		WebElement composeBtn = waitForElementToBeClickable(ByLocator.xpath, elementLocatorProp.getProperty("MAIL_COMPOSE_BUTTON"), 60);
+		if( composeBtn == null)
+			return false;
+		composeBtn.click();
+		
+		WebElement discardBtn = waitForElementToBeClickable(ByLocator.xpath, elementLocatorProp.getProperty("DISCARD_BTN_XPATH"), 120);
+		if( discardBtn == null)
+			return false;
+		discardBtn.click();
+		
+		Alert alert = driver.switchTo().alert();
+		if(alert == null)
+			return false;
+		String actualAlertText = alert.getText();
+		
+		if( !actualAlertText.equalsIgnoreCase(alertTextInEnglish)){
+			Verify.compareStringInNonEnglish(actualAlertText, alertTextInNonEnglish, locale);
+		}
+		return stepResult;
 	}
 }

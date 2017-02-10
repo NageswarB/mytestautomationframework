@@ -6,10 +6,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
-import java.util.HashMap;
 import java.util.Locale;
-import java.util.Map;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -17,7 +14,6 @@ import org.testng.ITestResult;
 
 import com.relevantcodes.extentreports.DisplayOrder;
 import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.NetworkMode;
 import com.webmailhostopia.selenium.webdriver.AbstractPageObject;
 
